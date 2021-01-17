@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* 全局开始*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	width: 16rem;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/* 全局结束 */
+/* header开始 */
+header {
+	width: 16rem;
+	height: 2.202rem;
+	background: #FFFFFF;
+	position: relative;
+}
+/* logo开始 */
+header .logo {
+	width: 5.874rem;
+	height: 1.545rem;
+	margin: 0 auto;
+}
+/* logo结束 */
+/* 列表开始 */
+.liebiao {
+	width: 2.202rem;
+	height: 0.811rem;
+	float: right;
+	position: absolute;
+	top: 0.695rem; right: 0;
+}
+.liebiao img {
+	width: 1.004rem;
+	height: auto;
+}
+/* 下拉菜单开始 */
+.xiala {
+	width: 2.202rem;
+	position: fixed;
+	display: none;
+	z-index: 1;
+	font-size:0.193rem;
+}
+
+.liebiao:hover .xiala {
+	display: block;
+	z-index: 1;
+}
+/* 下拉菜单结束 */
+/* 列表结束 */
+/* header结束 */
+/* content开始 */
+.content {
+	width: 16rem;
+}
+/* 轮播图开始 */
+.banner {
+	width: 16rem;
+	height:7.729rem;
+}
+/* 轮播图结束 */
+/* content1开始 */
+.c1 {
+	width: 16rem;
+	/* border: 0.038rem solid red; */
+	position: relative;
+}
+.c1 .guanyu {
+	width: 8.502rem;
+	margin-left: 0.463rem;
+}
+.c1 .guanyu  li {
+	display: inline-block;
+	float: left;
+}
+.c1 .blue {
+	width: 3.478rem;
+	height: 2.512rem;
+	background: #0000FF;
+	font-size: 0.695rem;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 0.966rem;
+	margin-right: 1.623rem;
+	position: absolute;
+	top: -0.772rem; left:;
+	position: relative;
+	z-index: 1;
+}
+.blue .A {
+	font-size: 0.927rem;
+	color: #FFFFFF;
+}
+.c1 .right {
+	width: 2.473rem;
+	height: 0.695rem;
+	font-size: 0.618rem;
+	background: url(../img/sanjiao.png) no-repeat left center;
+	padding-left: 0.85rem;
+	margin-top: 1.043rem;
+}
+.right a {
+	color: #000000;
+}
+.nav {
+	width: 16rem;
+	height: 1.545rem;
+	border-bottom: 0.077rem solid #EAEAEA;
+}
+.nav ul {
+	width: 15.072rem;
+	height: 1.584rem;
+	margin: 0 auto;
+}
+.nav ul li {
+	float: left;
+	padding-right: 1.198rem;
+}
+.nav ul li a {
+	font-size: 0.618rem;
+	color: #000000;
+	display: inline-block;
+	height: 0.619rem;
+	line-height: 0.619rem;
+	padding-bottom: 0.347rem;
+	
+}
+.nav .active a {
+	color: #1259E6;
+	border-bottom: 0.115rem solid #1259E6;
+}
+.nav ul li:hover a {
+	color: #1259E6;
+	border-bottom: 0.115rem solid #1259E6;
+}
+.wenzi1 {
+	width: 15.072rem;
+	margin: 0 auto;
+	font-family: "黑体";
+}
+.wenzi1 h4 { 
+	font-size: 0.772rem;
+	padding-top: 0.888rem;
+	padding-bottom: 0.772rem;
+}
+.wenzi1 p {
+	line-height: 1.004rem;
+	font-size: 0.618rem;
+}
+.tupian {
+	margin-left: 0.463rem;
+}
+.tupian div {
+	width: 7.149rem;
+	height: 7.149rem;
+	background: #F3F3F7;
+	float: left;
+	margin-right:0.579rem;
+	margin-bottom: 0.772rem;
+}
+.shangsheng .img1,.ren .img1,.shan .img1,.jiangbei .img1 {
+	width: 4.367rem;
+	height: 2.512rem;
+	padding-top: 1.275rem;
+	padding-left: 2.782rem;
+	margin: 0;
+}
+.shangsheng .img1 img,.ren .img1 img,.shan .img1 img,.jiangbei .img1 img {
+	width: 1.545rem;
+	height: 1.739rem;
+}
+.shangsheng p,.ren p,.shan p,.jiangbei p {
+	width: 7.149rem;
+	height: 3.323rem;
+	font-size: 0.695rem;
+	text-align: center;
+}
+/* content1结束 */
+/* content2开始 */
+.c2 {
+	width: 15.074rem;
+	background: #145AE7;
+	padding: 0.966rem 0.463rem;
+}
+.c2 h4 {
+	font-size: 0.618rem;
+	font-weight: normal;
+	line-height: 1.661rem;
+	padding-bottom: 0.579rem;
+	color: #FFFFFF;
+}
+.c2 p {
+	font-size: 0.541rem;
+	color: #FFFFFF;
+	border-top: 0.038rem solid #83A8F2;
+	padding-top: 0.579rem;
+	padding-bottom: 0.927rem;
+}
+.c2 p strong {
+	font-weight: normal;
+	font-size: 0.463rem;
+}
+.rexiandianhua {
+	width: 14.299rem;
+	height: 4.83rem;
+	border: 0.425rem solid #4085EA;
+	background: #6196EE;
+}
+.rexiandianhua .dianhua {
+	width: 1.661rem;
+	height: 1.661rem;
+	background: #FFFFFF;
+	border-radius: 0.154rem;
+	margin-left: 3.748rem;
+	margin-right: 0.734rem;
+	margin-top: 0.695rem;
+	float: left;
+}
+.rexiandianhua p {
+	font-size: 0.695rem;
+}
+/* content2结束 */
+/* content3开始 */
+.c3 {
+	width: 16rem;
+	
+}
+.c3 p {
+	padding-top: 1.159rem;
+	padding-bottom: 0.386rem;
+	width: 15.072rem;
+	line-height: 1.082rem;
+	font-size: 0.618rem;
+	margin: 0 auto;
+	text-indent: 1.236rem;
+	text-align: justify;
+}
+.logo2 {
+	width: 8.888rem;
+	height: 2.512rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 3.632rem; left: 3.169rem;
+}
+/* content3结束 */
+/* content结束 */
+/* footer开始 */
+footer {
+	width: 16rem;
+	background: #4A4A4A;
+	height: 4.251rem;
+	text-align: center;
+}
+footer p {
+	font-size: 0.541rem;
+	color: #676767;
+	padding-top: 0.772rem;
+	line-height: 1.043rem;
+}
+/* footer结束 */
+/* 二维码开始 */
+.erweima {
+	width: 2.318rem;
+	float: right;
+	position: fixed;
+	margin-right: 0.463rem;
+	right: 0;
+	bottom: 15.922rem;
+}
+/* 二维码结束 */

@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* 全局 */
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	width: 16rem;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/* header开始 */
+header {
+	width: 16rem;
+	height: 2.202rem;
+	background: #FFFFFF;
+	position: relative;
+}
+/* logo开始 */
+header .logo {
+	width: 5.874rem;
+	height: 1.545rem;
+	margin: 0 auto;
+}
+/* logo结束 */
+/* 列表开始 */
+.liebiao {
+	width: 2.202rem;
+	height: 0.811rem;
+	float: right;
+	position: absolute;
+	top: 0.695rem; right: 0;
+}
+.liebiao img {
+	width: 1.004rem;
+	height: auto;
+}
+/* 下拉菜单开始 */
+.xiala {
+	width: 2.202rem;
+	position: fixed;
+	display: none;
+	z-index: 1;
+	font-size:0.193rem;
+}
+
+.liebiao:hover .xiala {
+	display: block;
+	z-index: 1;
+}
+/* 下拉菜单结束 */
+/* 列表结束 */
+/* header结束 */
+/* banner开始 */
+.banner {
+	width: 16rem;
+	height: 6.956rem;
+}
+/* banner结束 */
+.content {
+	width: 16rem;
+}
+.c1 {
+	width: 16rem;
+	/* border: 0.038rem solid red; */
+	position: relative;
+}
+.c1 .guanyu {
+	width: 8.502rem;
+	margin-left: 0.463rem;
+}
+.c1 .guanyu  li {
+	display: inline-block;
+	float: left;
+}
+.c1 .blue {
+	width: 3.478rem;
+	height: 2.512rem;
+	background: #0000FF;
+	font-size: 0.695rem;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 0.966rem;
+	margin-right: 1.623rem;
+	position: absolute;
+	top: -0.772rem; left:;
+	position: relative;
+	z-index: 1;
+}
+.blue .A {
+	font-size: 0.927rem;
+	color: #FFFFFF;
+}
+.c1 .right {
+	width: 2.473rem;
+	height: 0.695rem;
+	font-size: 0.618rem;
+	background: url(../img/sanjiao.png) no-repeat left center;
+	padding-left: 0.85rem;
+	margin-top: 1.5rem;
+}
+.right a {
+	color: #000000;
+}
+.nav {
+	width: 16rem;
+	height: 1.545rem;
+	border-bottom: 0.077rem solid #EAEAEA;
+}
+.nav ul {
+	width: 15.072rem;
+	height: 1.584rem;
+	margin: 0 auto;
+}
+.nav ul li {
+	float: left;
+	padding-right: 1.198rem;
+}
+.nav ul li a {
+	font-size: 0.618rem;
+	color: #000000;
+	display: inline-block;
+	height: 0.619rem;
+	line-height: 0.619rem;
+	padding-bottom: 0.347rem;
+	
+}
+.nav .active a {
+	color: #1259E6;
+	border-bottom: 0.115rem solid #1259E6;
+}
+.nav ul li:hover a {
+	color: #1259E6;
+	border-bottom: 0.115rem solid #1259E6;
+}
+.c2 {
+	width: 15.072rem;
+	margin: 0 auto;
+	padding-top: 0.966rem;
+}
+.c2 div h5 {
+	font-weight: normal;
+	font-size: 0.541rem;
+	padding-bottom: 0.579rem;
+	line-height: 0.927rem;
+}
+.c2 div h6 {
+	font-size: 0.695rem;
+	font-weight: normal;
+	padding-top: 0.772rem;
+	padding-bottom: 0.695rem;
+}
+.c2 div p {
+	width: 10.821rem;
+	font-size: 0.541rem;
+	padding-bottom: 0.27rem;
+	color: #9F9F9F;
+}
+.c2 div p span {
+	float: right;
+}
+/* footer开始 */
+footer {
+	width: 16rem;
+	background: #4A4A4A;
+	height: 4.251rem;
+	text-align: center;
+}
+footer p {
+	font-size: 0.541rem;
+	color: #676767;
+	padding-top: 0.772rem;
+	line-height: 1.043rem;
+}
+/* footer结束 */
+/* 二维码开始 */
+.erweima {
+	width: 2.318rem;
+	float: right;
+	position: fixed;
+	margin-right: 0.463rem;
+	right: 0;
+	bottom: 15.922rem;
+}
+/* 二维码结束 */

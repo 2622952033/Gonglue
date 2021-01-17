@@ -1,0 +1,675 @@
+@charset "utf-8";
+/* 全局 */
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* * {
+	outline: solid #000000 0.038rem !important;
+	background: #000000 !important;
+	color: #FFFFFF !important;
+} */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+body {
+	width: 16rem;
+	background: #EFEFEF;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+/* head开始 */
+header {
+	width: 16rem;
+	height: 2.202rem;
+	position: relative;
+	background: #FFFFFF;
+}
+/* logo开始 */
+header .logo {
+	width: 5.874rem;
+	height: 1.545rem;
+	padding-top: 0.27rem;
+	padding-bottom: 0.386rem;
+	margin: 0 auto;
+}
+/* logo结束 */
+.liebiao {
+	width: 2.202rem;
+	height: 0.811rem;
+	float: right;
+	position: absolute;
+	top: 0.695rem; right: 0;
+}
+.liebiao img {
+	width: 1.004rem;
+	height: auto;
+}
+/* 下拉菜单开始 */
+.xiala {
+	width: 2.202rem;
+	position: fixed;
+	z-index: 1;
+	font-size:0.193rem;
+	display: none;
+}
+
+.liebiao:hover .xiala {
+	display: block;
+	z-index: 1;
+}
+/* 下拉菜单结束 */
+/* 列表结束 */
+/* header结束 */
+
+
+/* content开始 */
+.content {
+	width: 16rem;
+}
+/* 轮播图开始 */
+.banner {
+	width: 16rem;
+	height: 7.729rem;
+}
+/* .wrap {
+	width: 16rem;
+	height: 7.729rem;
+	overflow: hidden;
+	position: relative;
+ }
+ .wrap ul{
+	 width: 80rem;
+	 height: 7.729rem;
+	 position:absolute;
+	 top: 0; left: 0;
+	 transition: .5s linear;
+	 } 
+ .wrap ul li{
+	 width: 16rem;
+	 height: 7.729rem;
+	 float: left;
+	 }
+.wrap ul li img {
+	width: 100%;
+	height: auto;
+}
+.wrap p {
+	position: absolute;
+	left: 50%; bottom: 0.772rem;
+	margin-left: -1.932rem;
+}
+.wrap p .active {
+	background: red;
+}
+.wrap p em {
+	width: 0.386rem;
+	height: 0.386rem;
+	display: inline-block;
+	background: #FFFFFF;
+	z-index: 1;
+	border-radius: 50%;
+	margin: 0 0.193rem;
+}
+.wrap a {
+	padding: 0.579rem;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 0.772rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.966rem;
+	color: #FFFFFF;
+	opacity: 0;
+}
+.wrap:hover a {
+	opacity: 1;
+}
+#prev {
+	left: 0;
+}
+#next {
+	right: 0;
+} */
+/* 轮播图结束 */
+/* content1开始 */
+.content .content1 {
+	width: 15.033rem;
+	height: 18.357rem;
+	background-color: #FFFFFF;
+	margin-top: 0.772rem;
+	margin-left: 0.463rem;
+	margin-right: 0.463rem;
+	margin-bottom: 25px;
+	position: relative;
+}
+.content1 .img {
+	margin: 0 auto;
+	width: 1.777rem;
+	height: 1.855rem;
+}
+.content1 h4 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 0.695rem;
+	margin-top: 0.541rem;
+}
+.content1 .wenzi1 {
+	font-size: 0.502rem;
+	color: #999999;
+	margin-top: 0.386rem;
+	margin-bottom: 0.618rem;
+	text-align: center;
+}
+.content1 .top {
+	font-size: 0.734rem;
+	color: #0760E5;
+	text-indent: 0.579rem;
+}
+.content1 .bom {
+	font-size: 0.541rem;
+	margin-left: 0.579rem;
+	line-height: 0.85rem;
+	margin-top: 0.541rem;
+	margin-bottom: 0.966rem;
+}
+.content1 .fandian {
+	width: 11.594rem;
+	height: 1.932rem;
+	margin: 0 auto;
+	background: url(../img/index/hengxian.png) no-repeat bottom center;
+	z-index: 1;
+	position: relative;
+}
+.fandian .wenzi {
+	width: 11.594rem;
+	height: 1.932rem;
+	line-height: 1.932rem;
+	text-align: center;
+	background: url(../img/index/hengxian.png) no-repeat bottom center #0760E5;
+	margin: 0 auto;
+	color: #FFFFFF;
+	font-size: 0.618rem;
+}
+.content1 ul {
+	width: 360px;
+	height: 4.676rem;
+	z-index: 0;
+	margin: 0 auto;
+	position: absolute;
+	top: 12.714rem; left: 0.579rem;
+	z-index: 0;
+}
+.content1 ul li {
+	width: 6.956rem;
+	height: 4.676rem;
+	float: left;
+}
+.jiantou {
+	width: 3.285rem;
+	height: 1.236rem;
+	margin: 0 auto;
+	margin-top: 0.966rem;
+}
+.jiantou .tupian {
+	width: 1.236rem;
+	height: 1.236rem;
+	float: left;
+}
+.jiantou .tupian1 {
+	margin-right: 0.772rem;
+}
+/* content1结束 */
+/* content2开始 */
+.content .content2 {
+	width: 16rem;
+	height: 11.942rem;
+	background-color: #000000;
+	margin-top: 1.159rem;
+	background: url(../img/index/hebeigonglue.png);
+}
+.content2 .wenzi2{
+	width: 16rem;
+	height: 11.942rem;
+	background: rgb(0.0.0.0.5);
+}
+.wenzi2 h4,.wenzi2 h3,.wenzi2 p {
+	color: #FFFFFF;
+}
+.wenzi2 h4 {
+	font-size: 0.811rem;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 0.888rem;
+	margin-bottom: 0.618rem;
+}
+.wenzi2 h3 {
+	font-weight: normal;
+	font-size: 0.541rem;
+	text-align: center;
+	margin-bottom: 1.004rem;
+}
+.wenzi2 p {
+	width: 15.072rem;
+	font-size: 0.618rem;
+	line-height: 1.004rem;
+	margin: 0 auto 0.927rem auto;
+}
+.xiangqing {
+	width: 7.652rem;
+	height: 1.584rem;
+	background: #0760E5;
+	margin: 0 auto;
+	border-radius: 0.502rem;
+}
+.xiangqing p {
+	width: 2.202rem;
+	height: 1.584rem;
+	line-height: 1.584rem;
+	font-size: 0.541rem;
+	text-align: center;
+	background: url(../img/index/jiantou.png) no-repeat right;
+	padding-right: 0.966rem;
+}
+/* content2结束 */
+/* content3开始 */
+.content .content3 {
+	width: 15.072rem;
+	margin: 0 auto;
+}
+.content3 .c3_wenzi {
+	width: 9.429rem;
+	height: 0.695rem;
+	font-size: 0.695rem;
+	margin: 1.198rem auto 0.734rem auto;
+}
+.content3 .img1 {
+	width: 15.072rem;
+	height: 9.352rem;
+	margin-bottom: 0.541rem;
+}
+.content3 .c3_wenzi2 {
+	width: 9rem;
+	height: 0.618rem;
+	font-size: 0.618rem;
+	margin: 0 auto;
+}
+.content3 .img2 {
+	width: 15.072rem;
+	height: 9.352rem;
+	margin-top: 1.004rem;
+	margin-bottom: 0.579rem;
+}
+.content3 .c3_wenzi3 {
+	width: 7.8rem;
+	height: 0.618rem;
+	font-size: 0.618rem;
+	margin: 0 auto 1.159rem auto;
+}
+/* content3结束 */
+/* content4开始 */
+.content4 {
+	width: 16rem;
+	background: #FFFFFF;
+	padding-top: 1.159rem;
+}
+.content4 .zixun {
+	text-align: center;
+	font-size: 0.811rem;
+	font-weight: normal;
+	margin-bottom: 0.657rem;
+}
+.content4 .huise {
+	width: 15.072rem;
+	font-size: 0.6rem;
+	color: #B3B3B3;
+	text-align: center;
+	line-height: 0.811rem;
+	margin-bottom: 1.004rem;
+	margin: 0 auto;
+}
+.content4 ul {
+	width: 15.072rem;
+	height: 1.545rem;
+	margin: 0 auto;
+}
+.content4 ul li {
+	width: 4.637rem;
+	height: 1.545rem;
+	line-height: 1.545rem;
+	text-align: center;
+	display: inline-block;
+	background: #F3F3F3;
+	font-size: 0.618rem;
+	
+}
+.content4 .mr {
+	margin-right: 0.2rem;
+}
+.content4 .active {
+	background: #0760E5;
+	color: #FFFFFF;
+}
+.content4 ul li:hover {
+	background: #0760E5;
+	color: #FFFFFF;
+}
+.content4 .img3 {
+	width: 15.072rem;
+	height: 9.082rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.772rem;
+	margin-bottom: 0.772rem;
+}
+.content4 .huwai {
+	font-weight: normal;
+	font-size: 0.772rem;
+	width: 15.072rem;
+	height: 1.159rem;
+	margin-left: 0.463rem;
+	margin-bottom: 0.502rem;
+}
+.content4 .penqibu {
+	width: 15.072rem;
+	padding-top: 0.579rem;
+	border-top: 0.038rem solid #E4E3E3;
+	margin: 0 auto;
+	font-size: 0.541rem;
+	line-height: 0.927rem;
+	color: #939393;
+}
+.content4 .img4 {
+	width: 15.072rem;
+	height: 9.082rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.004rem;
+	margin-bottom:0.772rem;
+}
+.content4 .sanmianfan {
+	font-size: 0.695rem;
+	font-weight: normal;
+	width: 15.072rem;
+	height: 1.159rem;
+	margin-left: 0.463rem;
+	margin-bottom: 0.502rem;
+}
+.content4 .img5 {
+	width: 15.072rem;
+	height: 9.082rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.004rem;
+	margin-bottom:0.772rem;
+}
+/* content4结束 */
+/* content5开始 */
+.content5 {
+	width: 16rem;
+	height: 8.193rem;
+	background: #0760E5;
+	
+}
+.content5 .shangsheng {
+	width: 5.14rem;
+	height: 2.202rem;
+	margin-left: 1.004rem;
+	padding-top: 0.966rem;
+	float: left;
+}
+.content5 .five {
+	width: 3.671rem;
+	height:1.12rem;
+	font-size: 1.468rem;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 0.579rem;
+	background: url(../img/index/shangsheng.png) no-repeat right center;
+	padding-right: 1.352rem;
+	padding-bottom: 0.579rem;
+}
+.content5 #five {
+	font-size: 0.541rem;
+	color: #FFFFFF;
+	width: 5.5rem;
+	height: 0.541rem;
+	text-align: center;
+}
+.content5 .eight {
+	width: 3.671rem;
+	height:1.12rem;
+	font-size: 1.468rem;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 0.579rem;
+	background: url(../img/index/rentou.png)no-repeat right center; 
+	padding-right: 1.352rem;
+	padding-bottom: 0.579rem;
+}
+.content5 #eight {
+	font-size: 0.541rem;
+	color: #FFFFFF;
+	width: 5.5rem;
+	height: 0.541rem;
+	text-align: center;
+	
+}
+.content5 .tw {
+	width: 3.671rem;
+	height:1.12rem;
+	font-size: 1.468rem;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 0.579rem;
+	background: url(../img/index/chandi.png)no-repeat right center; 
+	padding-right: 1.352rem;
+	padding-bottom: 0.579rem;
+}
+.content5 #tw {
+	font-size: 0.541rem;
+	color: #FFFFFF;
+	width: 5.5rem;
+	height: 0.541rem;
+	text-align: center;
+}
+.content5 .shangsheng2 {
+	width: 5.14rem;
+	height: 2.202rem;
+	margin-left: 1.004rem;
+	padding-top: 0.966rem;
+	float: left;
+}
+.content5 .three {
+	width: 3.671rem;
+	height:1.12rem;
+	font-size: 1.468rem;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 0.579rem;
+	background: url(../img/index/jiangbei.png)no-repeat right center; 
+	padding-right: 1.352rem;
+	padding-bottom: 0.579rem;
+}
+.content5 #three {
+	font-size: 0.541rem;
+	color: #FFFFFF;
+	width: 7rem;
+	height: 0.541rem;
+	text-align: center;
+}
+/* content5结束 */
+/* 留言问答开始 */
+.wenda {
+	width:16rem;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.wenda .liuyanwenda {
+	width: 15.072rem;
+	height: 0.811rem;
+	padding-top: 1.159rem;
+	font-size: 0.85rem;
+	margin: 0 auto;
+	line-height: 0.811rem;
+	margin-bottom: 0.772rem;
+}
+.wenda span {
+	font-size: 0.541rem;
+	color: #999999;
+	float: right;
+}
+.wenda p strong {
+	font-weight: normal;
+	color: #0760E5;
+}
+.wenda .wenda-content {
+	width: 15.072rem;
+	padding-top: 1.004rem;
+	border-top: 1px solid #939393;
+	margin: 0 auto;
+}
+.wenda-content #content1 h4 {
+	font-size: 0.618rem;
+	background: url(../img/index/wenhao.png) no-repeat left center;
+	padding-left: 1.159rem;
+	padding-bottom: 0.502rem;
+}
+#content1 .tiwenzhe {
+	width: 12.869rem;
+	margin: 0 auto;
+	font-size: 0.541rem;
+	color: #999999;
+	padding-bottom: 0.579rem;
+}
+#content1 .qiyebiaoshi {
+	width: 13.913rem;
+	margin: 0 auto;
+	font-size: 0.541rem;
+	color: #AFAFAF;
+	line-height: 0.772rem;
+}
+#content2 h4 {
+	font-size: 0.618rem;
+	background: url(../img/index/wenhao.png) no-repeat left center;
+	padding-left: 1.159rem;
+	padding-bottom: 0.502rem;
+	padding-top: 1.082rem;
+}
+#content2 .tiwenzhe {
+	width: 12.869rem;
+	margin: 0 auto;
+	font-size: 0.541rem;
+	color: #999999;
+	padding-bottom: 0.579rem;
+}
+#content2 .wufeng {
+	width: 13.913rem;
+	margin: 0 auto;
+	font-size: 0.541rem;
+	color: #AFAFAF;
+	line-height: 0.772rem;
+	padding-bottom: 1.198rem;
+}
+/* 留言问答结束 */
+/* 在线留言开始 */
+form {
+	width: 16rem;
+	background: #FFFFFF;
+}
+form h4 {
+	margin-left: 0.463rem;
+	padding-bottom: 0.811rem;
+	font-size: 0.888rem;
+	font-weight: normal;
+}
+form table {
+	padding-top: 1.043rem;
+	width: 15.072rem;
+	margin: 0 auto;
+	border-top: 1px solid #939393;
+}
+form table td input {
+	width: 15.072rem;
+	height: 1.545rem;
+	margin-bottom: 0.579rem;
+	outline: none;
+	background: #F3F3F4;
+	border: 1px solid #F3F3F4;
+}
+.yanzhengma {
+	width: 11.594rem;
+	height: 1.545rem;
+	padding-right: 3.516rem;
+	border: 1px solid #F3F3F4;
+	background: #F3F3F4;
+}
+td img {
+	width: 3.516rem;
+	height: 1.545rem;
+	position: absolute;
+	top: 0;right: 0;
+}
+.t2 {
+	border: none;
+	padding: 0;
+	padding-bottom: 0.966rem;
+}
+.t2 textarea {
+	width: 15.072rem;
+	height: 3.864rem;
+	outline: none;
+	background: #F3F3F4;
+	border: 1px solid #F3F3F4;
+	resize: none;
+	overflow: hidden;
+}
+ form .tijiao  {
+	width: 15.072rem;
+	margin: 0 auto;
+	height: 1.739rem;
+	padding-bottom: 1.352rem;
+}
+.tijiao button {
+	width: 15.072rem;
+	height: 1.739rem;
+	margin: 0 auto;
+	background: #2070E6;
+	border: none;
+	border-radius: 0.386rem;
+	outline: none;
+	color: #FFFFFF;
+	font-size: 0.657rem;
+}
+/* 在线留言结束 */
+
+/* content结束 */
+/* footer开始 */
+footer {
+	width: 16rem;
+	background: #4A4A4A;
+	height: 4.251rem;
+	text-align: center;
+}
+footer p {
+	font-size: 0.541rem;
+	color: #676767;
+	padding-top: 0.772rem;
+	line-height: 1.043rem;
+}
+/* footer结束 */
+/* 二维码开始 */
+.erweima {
+	width: 2.318rem;
+	float: right;
+	position: fixed;
+	margin-right: 0.463rem;
+	right: 0;
+	bottom: 15.922rem;
+}
+/* 二维码结束 */

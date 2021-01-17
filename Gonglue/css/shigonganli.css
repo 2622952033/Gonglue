@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* 全局 */
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	width: 16rem;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/* header开始 */
+header {
+	width: 16rem;
+	height: 2.202rem;
+	background: #FFFFFF;
+	position: relative;
+}
+/* logo开始 */
+header .logo {
+	width: 5.874rem;
+	height: 1.545rem;
+	margin: 0 auto;
+}
+/* logo结束 */
+/* 列表开始 */
+.liebiao {
+	width: 2.202rem;
+	height: 0.811rem;
+	float: right;
+	position: absolute;
+	top: 0.695rem; right: 0;
+}
+.liebiao img {
+	width: 1.004rem;
+	height: auto;
+}
+/* 下拉菜单开始 */
+.xiala {
+	width: 2.202rem;
+	position: fixed;
+	display: none;
+	z-index: 1;
+	font-size:0.193rem;
+}
+.xiala ul li a {
+	color: #000000;
+}
+.liebiao:hover .xiala {
+	display: block;
+	z-index: 1;
+}
+/* 下拉菜单结束 */
+/* 列表结束 */
+/* header结束 */
+/* banner开始 */
+.banner {
+	width: 16rem;
+	height: 6.956rem;
+}
+/* banner结束 */
+.content {
+	width: 16rem;
+}
+.c1 {
+	width: 16rem;
+	/* border: 0.038rem solid red; */
+	position: relative;
+	margin-bottom: 0.966rem;
+}
+.c1 .guanyu {
+	width: 8.502rem;
+	margin-left: 0.463rem;
+}
+.c1 .guanyu  li {
+	display: inline-block;
+	float: left;
+}
+.c1 .blue {
+	width: 3.478rem;
+	height: 2.512rem;
+	background: #0000FF;
+	font-size: 0.695rem;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 0.966rem;
+	margin-right: 1.623rem;
+	position: absolute;
+	top: -0.772rem; left:;
+	position: relative;
+	z-index: 1;
+}
+.blue .A {
+	font-size: 0.927rem;
+	color: #FFFFFF;
+}
+.c1 .right {
+	width: 2.473rem;
+	height: 0.695rem;
+	font-size: 0.618rem;
+	background: url(../img/sanjiao.png) no-repeat left center;
+	padding-left: 0.85rem;
+	margin-top: 1.5rem;
+}
+.right a {
+	color: #000000;
+}
+.nav {
+	width: 16rem;
+	height: 1.545rem;
+	border-bottom: 0.077rem solid #EAEAEA;
+}
+.nav ul {
+	width: 15.072rem;
+	height: 1.584rem;
+	margin: 0 auto;
+}
+.nav ul li {
+	float: left;
+	padding-right: 0.5rem;
+}
+.nav ul li a {
+	font-size: 0.618rem;
+	color: #000000;
+	display: inline-block;
+	height: 0.619rem;
+	line-height: 0.619rem;
+	padding-bottom: 0.347rem;
+	
+}
+.nav .active a {
+	color: #1259E6;
+	border-bottom: 0.115rem solid #1259E6;
+}
+.nav ul li:hover a {
+	color: #1259E6;
+	border-bottom: 0.115rem solid #1259E6;
+}
+.c2	{
+	width: 15.072rem;
+	margin: 0 auto;
+}
+.active2 {
+	
+}
+.c2 ul li {
+	display: inline-block;
+	width: 4.637rem;
+	height: 1.545rem;
+	line-height: 1.545rem;
+	float: left;
+	font-size: 0.618rem;
+	background: #F3F3F3;
+	text-align: center;
+	margin-right: 0.386rem;
+	margin-bottom: 0.579rem;
+}
+.c2 ul li:hover {
+	background: #0000FF;
+	color: #FFFFFF;
+}
+.c3 {
+	width: 15.072rem;
+	margin:1.159rem auto 0 auto;
+}
+.c3 div {
+	background: #f3f4f8;
+	padding-bottom: 0.657rem;
+	margin-bottom: 0.966rem;
+}
+p {
+	font-size: 0.618rem;
+	margin-left: 0.811rem;
+}
+.color {
+	color: #999999;
+	padding-top: 0.695rem;
+	padding-bottom: 0.579rem;
+}
+.fenye {
+	width: 7.729rem;
+	margin: 0 auto;
+}
+.fenye li {
+	width: 3.478rem;
+	height: 1.352rem;
+	line-height: 1.352rem;
+	text-align: center;
+	font-size: 0.618rem;
+	float: left;
+	background: #0000FF;
+	margin-bottom: 1.352rem;
+	
+}
+.fenye li a {
+	color: #FFFFFF;
+}
+/* footer开始 */
+footer {
+	width: 16rem;
+	background: #4A4A4A;
+	height: 4.251rem;
+	text-align: center;
+}
+footer p {
+	font-size: 0.541rem;
+	color: #676767;
+	padding-top: 0.772rem;
+	line-height: 1.043rem;
+}
+/* footer结束 */
+/* 二维码开始 */
+.erweima {
+	width: 2.318rem;
+	float: right;
+	position: fixed;
+	margin-right: 0.463rem;
+	right: 0;
+	bottom: 15.922rem;
+}
+/* 二维码结束 */
